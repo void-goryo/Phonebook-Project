@@ -70,8 +70,11 @@ def onSelect(self, event):
     select = varList.curselection()[0]
 
 
-
-
+def addToList(self):
+    var_fname = self.txt_fname.get()
+    var_lname = self.txt_lname.get()
+    #normalize the data to keep it consistent in the database
+    var_name
 
 
 
